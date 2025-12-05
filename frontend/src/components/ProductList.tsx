@@ -23,7 +23,7 @@ export default function ProductList() {
 
       loadProducts();
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    } catch (_error) { // 👈 Fixed unused variable warning
+    } catch (_error) {
       alert("Failed to reserve product");
     }
   }, [loadProducts]);
@@ -36,12 +36,12 @@ export default function ProductList() {
       setReservations(getReservations());
       loadProducts();
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    } catch (_error) { // 👈 Fixed unused variable warning
+    } catch (_error) { 
       alert("Failed to complete");
     }
   }, [loadProducts]);
 
-  // --- Initial Data Fetch ---
+
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     loadProducts();
@@ -62,7 +62,7 @@ export default function ProductList() {
 
     if (changed) {
       setReservations(getReservations());
-      loadProducts(); // refresh stock
+      loadProducts(); 
     }
   }, 1000);
 

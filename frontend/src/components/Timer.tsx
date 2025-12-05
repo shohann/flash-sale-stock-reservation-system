@@ -1,16 +1,3 @@
-// import useCountdown from "../hooks/useCountdown";
-
-// interface Props {
-//   expiresAt: string;
-// }
-
-// export default function Timer({ expiresAt }: Props) {
-//   const seconds = useCountdown(expiresAt);
-
-//   return <div>Expires in: {seconds}s</div>;
-// }
-
-
 import useCountdown from "../hooks/useCountdown";
 
 interface Props {
