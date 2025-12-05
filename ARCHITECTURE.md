@@ -147,7 +147,6 @@ enum ReservationStatus {
 
    - **Limitation:** Users cannot manually cancel reservations
    - **Impact:** Stock remains locked for full 2 minutes
-   - **Mitigation:** Could add `DELETE /reservations/:id` endpoint if needed
 
 4. **Fixed Expiration Time:**
 
