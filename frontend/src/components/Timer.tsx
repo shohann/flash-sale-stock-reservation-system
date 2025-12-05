@@ -7,7 +7,7 @@ interface Props {
 export default function Timer({ expiresAt }: Props) {
   const { seconds, isExpired } = useCountdown(expiresAt);
 
-  if (isExpired) return null; // ⬅ remove timer from UI
+  if (isExpired) return null; 
 
   return <div>Expires in: {seconds}s</div>;
 }

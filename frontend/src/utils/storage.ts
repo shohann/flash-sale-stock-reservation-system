@@ -4,7 +4,7 @@ const KEY = "reservations";
 
 export function saveReservation(r: Reservation) {
   const data: Record<string, Reservation> = getReservations();
-  data[String(r.id)] = r; // <-- always store as string key
+  data[String(r.id)] = r;
   localStorage.setItem(KEY, JSON.stringify(data));
 }
 
