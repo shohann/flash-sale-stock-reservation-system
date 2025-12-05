@@ -129,6 +129,7 @@ npm run dev
 
 Once both the backend and frontend terminals show successful compilation/startup messages:
 
+- **Demo Video:** [Link](https://drive.google.com/file/d/1f2M3bc2TKfOPfAu9986lqxt_Flm-T4dZ/view?usp=sharing)
 - **Backend API:** `http://localhost:5000`
 - **Frontend UI:** `http://localhost:5173`
 
